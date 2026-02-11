@@ -1,0 +1,56 @@
+/*SEÇÃO 2 DOS MENUS*/
+#menu-opcoes {
+    margin-top: 20px;
+}
+
+/*CONTAINER DAS ABAS (ARTICLE)*/
+.container-abas {
+   text-align: center;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/*DIVS COMA AS ABAS*/
+.abas,#abas-plano-de-estudo {
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+/*DIV PLANO DE ESTUDO*/
+#abas-plano-de-estudo {
+    min-width: 188px;
+}
+
+
+/*HOVER*/
+.abas:hover {
+    background-color: var(--cor-cinza);
+}
+#abas-plano-de-estudo:hover {
+    background-color: var(--cor-cinza);
+}
+
+
+/*IMAGEMS DAS ABAS*/
+.abas > img {
+    width: 26px;
+    margin-right: 5px;
+}
+
+/*PARAGRAFO DAS ABAS*/
+.abas,#abas-plano-de-estudo > p {
+    font-family: var(--fonte-inter);
+    color: var(--cor-dos-textos);
+}
+
+
+/*QUANDO A DIV RECEBER O EVENTO EU VOU ATIVAR ESSA CLASSE*/
+.ativo {
+    background-color: var(--cor-azul-primaria);
+}
