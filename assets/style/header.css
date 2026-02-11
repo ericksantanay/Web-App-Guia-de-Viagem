@@ -11,6 +11,7 @@ header {
     z-index: 3;
     padding: 10px;
     background-color: var(--cor-de-fundo);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
 }
 
 /*DIV MÃE DO LADO ESQUERDO E DIREITO*/
