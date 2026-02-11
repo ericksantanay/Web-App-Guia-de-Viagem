@@ -3,6 +3,7 @@
 
 } */
 
+/*HEADER*/
 header {
     width: 100%;
     position: fixed;
@@ -10,4 +11,58 @@ header {
     z-index: 3;
     padding: 10px;
     background-color: var(--cor-de-fundo);
+}
+
+/*DIV MÃE DO LADO ESQUERDO E DIREITO*/
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*DIV QUE ESTA O AVIÃO E OS TEXTOS*/
+.parte-esquerda-header {
+    display: flex;
+    gap: 10px;
+}
+
+
+/*IMAGEM DO AVIÃO*/
+.parte-esquerda-header  > img {
+    background-color: var(--cor-azul-primaria);
+    padding: 16px;
+    border-radius: 10px;
+}
+
+
+/*DIV COM OS TEXTOS*/ 
+.container-text-header > h2 {
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+    color: var(--cor-dos-textos);
+    margin-bottom: 10px;
+}
+
+
+/*PARAGRAFO (SEU PLANO DE IMIGRAÇÃO)*/
+.container-text-header > p {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-style: normal;
+}
+
+
+/*LADO DIREITO DO HEADER*/
+.parte-direita-header {
+    padding: 8px;
+    border-radius: 20px;
+    background-color: #23262D;  /*ESSE É O CINZA MAIS CLARO*/
+}
+
+
+/*LADO DIREITO DO HEADER PARAGRAFO*/
+.parte-direita-header > p {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-weight: 500;
 }

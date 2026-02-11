@@ -12,12 +12,14 @@
     --cor-dos-segundos-cards: #1B2026;
     --cor-dos-textos: #EDEDE5;
     --cor-verde: #16A34A;
-    --cor-azul:primaria: #3B82F6;
+    --cor-azul-primaria: #3B82F6;
     --cor-azul-para-hover: #2563EB;
     --cor-amarelo: #FACC15;
     --cor-amarelo-escuro: #CA8A04;
     --cor-vermelho: #EF4444;
     --cor-vermelho-escuro: #B91C1C;
+    --cor-cinza: #565C68;
+    
 
     /*FONTES*/
     --fonte-inter: "Inter", sans-serif;
