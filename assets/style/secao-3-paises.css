@@ -1,0 +1,55 @@
+/*SEÇÃO 3 DOS PAISES*/
+/* #secao-paises {
+   
+} */
+
+/*CONTAINER DOS PAISES*/
+.container-paises {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/*CARDS DOS PAISES*/
+.card-paises {
+    padding: 10px;
+    width: 100%;
+    background-color: var(--cor-dos-cards);
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    gap: 20px;
+}
+
+/*IMAGEM DOS CARDRS*/
+.card-paises > img {
+    width: 70px;
+}
+
+/*DIV AONDE ESTA O TEXTO*/
+.card-text {
+    margin-right: 120px;
+}
+
+/*TITULO*/
+.card-text > h2{ 
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+
+/*PARAGRAFO*/
+.card-text > p {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-weight: 600;
+}
+
+/*SETA*/
+.material-symbols-outlined {
+    color:  var(--cor-cinza);
+}
