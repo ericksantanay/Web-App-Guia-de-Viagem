@@ -1,0 +1,32 @@
+/*INTER*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/*POPPINS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*ROOT E SELETOR GERAL*/
+:root {
+    /*CORES*/
+    --cor-de-fundo: #0E1116;
+    --cor-dos-cards: #15181F;
+    --cor-dos-segundos-cards: #1B2026;
+    --cor-dos-textos: #EDEDE5;
+    --cor-verde: #16A34A;
+    --cor-azul:primaria: #3B82F6;
+    --cor-azul-para-hover: #2563EB;
+    --cor-amarelo: #FACC15;
+    --cor-amarelo-escuro: #CA8A04;
+    --cor-vermelho: #EF4444;
+    --cor-vermelho-escuro: #B91C1C;
+
+    /*FONTES*/
+    --fonte-inter: "Inter", sans-serif;
+    --fonte-poppins: "Poppins", sans-serif;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
