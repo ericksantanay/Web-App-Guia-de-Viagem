@@ -3,3 +3,9 @@ body,html {
     min-height: 100vh;
     background-color: var(--cor-de-fundo);
 }
+
+
+/*MAIN COM O PADDING*/
+main {
+    padding: 10px;
+}

@@ -1,0 +1,29 @@
+/*PRIMEIRA SEÇÃO*/
+#secao-1-fixa {
+    margin: 20px 0px;
+}
+
+/**/
+#secao-1-fixa > h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--fonte-inter);
+    color: var(--cor-dos-textos);
+    margin-bottom: 15px;
+}
+
+
+/*TITULO STRONG*/
+#secao-1-fixa > h1 > strong {
+    color: var(--cor-azul-primaria);
+}
+
+
+/*PARAGRAFO*/
+#secao-1-fixa > p {
+    padding: 10px;
+    font-size: 23px;
+    font-family: var(--fonte-inter);
+    font-style: normal;
+    color: var(--cor-cinza);
+}
