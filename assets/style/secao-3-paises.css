@@ -30,11 +30,13 @@
 
 /*DIV AONDE ESTA O TEXTO*/
 .card-text {
+    width: 100%;
     margin-right: 120px;
 }
 
 /*TITULO*/
 .card-text > h2{ 
+    width: 120%;
     color: var(--cor-dos-textos);
     font-family: var(--fonte-inter);
     font-weight: bold;
