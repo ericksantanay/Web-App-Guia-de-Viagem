@@ -99,7 +99,7 @@
 }
 
 
-/**/
+/*DIV COM OS CARDS*/
 .container-dos-cards-informacao {
     flex-wrap: wrap;
     display: flex;
@@ -109,10 +109,138 @@
 }
 
 
-/**/
+/*CARDS COM AS INFORMAÇÕES*/
 .card-informacao {
     width: 170px;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--cor-dos-segundos-cards);
+}
+
+
+/*DIV COM O TITULO DO CARD E A IMAGEM*/
+.card-icone-e-texto {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px
+}   
+
+
+/*IMAGEM DO ICONE*/
+.card-icone-e-texto > img {
+    width: 25px;
+    height: 25px;
+}
+
+/*TITULO DO CARD*/
+.card-icone-e-texto > h3 {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+/*PARAGRAFO DO CARD INFORMÇÃO*/
+.card-informacao > p{
+    text-align: center;
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+}
+
+
+/*NIVEL DE INGLES EXIGIDO*/
+.container-nivel-de-ingles {
+    padding: 10px;
+    margin: 20px 0px;
+}
+
+
+/*TITULO*/
+.container-nivel-de-ingles > h3 {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/*DIV COM O NIVEL DE INGLES EXIGIDO*/
+.nivel-de-ingles-text  {
+    text-align: center;
+    background-color: #ca8b045b;
+    width: 25%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+/*PARAGRAFO COM O NIVEL DE INGLES*/
+.nivel-de-ingles-text > p {
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+    color: var(--cor-amarelo);
+}
+
+
+
+/*HABILIDADES*/
+.container-mae-das-habilidades {
+    margin-bottom: 20px;
+}
+
+
+/*TITULO (HABILIDADES)*/
+.container-mae-das-habilidades > h3  {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+}
+
+
+/*DIV COM AS HABILIDADES*/
+.container-das-habilidades {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/*DIV COM O PARAGRAFO DO MEIO*/
+.habilidade {
+    border-radius: 25px;
+    padding: 5px 15px;
+    background-color: var(--cor-dos-segundos-cards);
+    margin-top: 20px;
+}
+
+
+/*PARAGRAFO DA HABILIDADE*/
+.habilidade > p {
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+}
+
+
+/*DIV COM IDIOMA PRINCIPAL*/
+.container-idioma-princial {
+    margin: 20px 0px;
+}
+
+
+/*TITULO DO IDIOMA PRINCIPAL*/
+.container-idioma-princial > h3 {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    margin-bottom: 10px;
+}
+
+
+/*PARAGRAFO DO IDIOMA PRINCIPAL*/
+.container-idioma-princial > p {
+    font-family: var(--fonte-inter);
+    color: var(--cor-dos-textos);
+    font-weight: bold;
 }
