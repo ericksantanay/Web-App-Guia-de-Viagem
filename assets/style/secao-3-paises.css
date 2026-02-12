@@ -55,3 +55,64 @@
 .material-symbols-outlined {
     color:  var(--cor-cinza);
 }
+
+/*ARTICLE DESCRIÇÃO DOS PAISES*/
+.descrição-dos-paises {
+    margin: 25px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cor-dos-cards);
+}
+
+
+
+/*DIV COM A IMAGEM E O TEXTO*/
+.img-do-portugual {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+
+/*IMAGEM DA BANDEIRA*/
+.img-do-portugual > img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/*NOME DO PAÍS*/
+.lado-direito-textos > h2 {
+    font-family: var(--fonte-inter);
+    font-weight: bold;
+    font-size: 28px;
+    color: var(--cor-dos-textos);
+    margin-bottom: 15px;
+}
+
+
+/*PARAGRAFO*/ 
+.lado-direito-textos > p {
+    font-family: var(--fonte-inter);
+    color: var(--cor-cinza);
+    font-size: 20px;
+}
+
+
+/**/
+.container-dos-cards-informacao {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/**/
+.card-informacao {
+    width: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cor-dos-segundos-cards);
+}
