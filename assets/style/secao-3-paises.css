@@ -67,7 +67,7 @@
 
 
 /*DIV COM A IMAGEM E O TEXTO*/
-.img-do-portugual {
+.img-dos-paises {
     display: flex;
     gap: 30px;
     margin-bottom: 20px;
@@ -75,7 +75,7 @@
 
 
 /*IMAGEM DA BANDEIRA*/
-.img-do-portugual > img {
+.img-dos-paises > img {
     width: 100px;
     height: 100px;
 }
@@ -170,7 +170,7 @@
 .nivel-de-ingles-text  {
     text-align: center;
     background-color: #ca8b045b;
-    width: 25%;
+    width: 30%;
     padding: 10px;
     border-radius: 20px;
 }
@@ -203,7 +203,7 @@
 .container-das-habilidades {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 
@@ -244,3 +244,9 @@
     color: var(--cor-dos-textos);
     font-weight: bold;
 }
+
+
+/*CARDS COM DISPLAY NONE*/
+#pais-canada,#pais-estados-unidos {
+    display: none;
+}    
