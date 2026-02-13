@@ -170,7 +170,7 @@
 .nivel-de-ingles-text  {
     text-align: center;
     background-color: #ca8b045b;
-    width: 30%;
+    width: 35%;
     padding: 10px;
     border-radius: 20px;
 }
@@ -247,6 +247,6 @@
 
 
 /*CARDS COM DISPLAY NONE*/
-#pais-canada,#pais-estados-unidos {
+#pais-canada,#pais-estados-unidos,#pais-alemanha,#pais-australia,#pais-holanda,#pais-irlanda,#pais-nova-zelandia {
     display: none;
 }    
