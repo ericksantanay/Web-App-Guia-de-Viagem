@@ -23,6 +23,10 @@
     gap: 20px;
 }
 
+.card-paises:hover {
+    border: 1px solid var(--cor-azul-primaria);
+}
+
 /*IMAGEM DOS CARDRS*/
 .card-paises > img {
     width: 70px;
@@ -247,6 +251,6 @@
 
 
 /*CARDS COM DISPLAY NONE*/
-#pais-canada,#pais-estados-unidos,#pais-alemanha,#pais-australia,#pais-holanda,#pais-irlanda,#pais-nova-zelandia {
+#pais-portugual,#pais-canada,#pais-estados-unidos,#pais-alemanha,#pais-australia,#pais-holanda,#pais-irlanda,#pais-nova-zelandia {
     display: none;
 }    

@@ -96,7 +96,8 @@
 
         <section id="secao-paises"> <!--SEÇÃO PAISES-->
             <article class="container-paises"> <!--CONTAINER DOS PAISES-->
-                <div class="card-paises"> <!--DIV PAISES-->
+
+                <div class="card-paises" onclick="portugualAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/portugal.png" alt="BANDEIRA PORTUGUAL">
 
                     <div class="card-text">
@@ -105,12 +106,12 @@
                         <p>Europa</p>
 
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta1">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="canadaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/canada.png" alt="BANDEIRA CANADÁ">
 
                     <div class="card-text">
@@ -119,12 +120,12 @@
                         <p>América do Norte</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta2">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="estadosUnidosAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/estados-unidos.png" alt="BANDEIRA ESTADOS UNIDOS">
 
                     <div class="card-text">
@@ -133,12 +134,12 @@
                         <p>América do Norte</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta3">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="holandaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/holanda.png" alt="BANDEIRA HOLANDA">
 
                     <div class="card-text">
@@ -147,12 +148,12 @@
                         <p>Europa</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta4">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="irlandaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/irlanda.png" alt="BANDEIRA IRLANDA">
 
                     <div class="card-text">
@@ -161,12 +162,12 @@
                         <p>Europa</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta5">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="novaZelandiaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/nova-zelandia.png" alt="BANDEIRA NOVA ZELÂNDIA">
 
                     <div class="card-text">
@@ -175,12 +176,12 @@
                         <p>Oceania</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta6">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="alemanhaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/alemanha.png" alt="BANDEIRA ALEMANHA">
 
                     <div class="card-text">
@@ -189,12 +190,12 @@
                         <p>Europa</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta7">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 <!--#########################################################-->
 
-                <div class="card-paises"> <!--DIV PAISES-->
+                <div class="card-paises" onclick="australiaAparecer()"> <!--DIV PAISES-->
                     <img src="assets/image/img-paises/australia.png" alt="BANDEIRA AUSTRALIA">
 
                     <div class="card-text">
@@ -203,14 +204,14 @@
                         <p>Oceania</p>
                         
                     </div>
-                        <span class="material-symbols-outlined">arrow_forward_ios</span>
+                        <span class="material-symbols-outlined" id="seta8">arrow_forward_ios</span>
                 </div> <!--DIV PAISES-->
 
 
             </article> <!--CONTAINER DOS PAISES-->
 
 <!--#########################################################-->
-            <article class="descrição-dos-paises"> <!--CONTAINER DA DESCRIÇÃO DOS PAÍSES-->
+            <article class="descrição-dos-paises" id="pais-portugual"> <!--CONTAINER DA DESCRIÇÃO DOS PAÍSES-->
 
                 <div class="pais-portugual-container"> <!--DIV QUE MOSTRA O TEXO E A IMAGEM FINAL-->
 
@@ -1292,7 +1293,7 @@
     </main> <!--MAIN FINAL-->
 
     <!--PARTE DOS SCRIPTS-->
-
+    <script src="assets/js/aparecerPais.js"></script>
 
 </body>
 </html>
