@@ -1,5 +1,10 @@
+#secao-dos-custos {
+     display: none;
+}
+
 /**/
 #secao-dos-custos {
+    display: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
