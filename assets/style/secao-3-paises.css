@@ -1,7 +1,7 @@
 /*SEÇÃO 3 DOS PAISES*/
-/* #secao-paises {
-   
-} */
+#secao-paises {
+   display: none;
+}
 
 /*CONTAINER DOS PAISES*/
 .container-paises {
