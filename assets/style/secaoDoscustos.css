@@ -1,22 +1,14 @@
-/**/
+/*SEÇÃO DOS CUSTOS*/
 #secao-dos-custos {
     display: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     margin-top: 30px;
 }
-
-#secao-dos-custos {
-    display: none;
-}
-
 
 
 /* CONTAINER MAE DAS DIVS*/     /*ESSA CLASSE É DOS CARDS SE É ACESSIVEL OU NÃO*/
 .container-mae-dos-custos,.container-mae-dos-cards-acessivel {
     width: 90%;
+    margin: auto;
     padding: 10px;
     background-color: var(--cor-dos-cards);
     border-radius: 10px;
