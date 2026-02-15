@@ -1,6 +1,6 @@
 /*SEÇÃO 3 DOS PAISES*/
 #secao-paises {
-   display: none;
+   
 }
 
 /*CONTAINER DOS PAISES*/
@@ -21,10 +21,6 @@
     align-items: center;
     border-radius: 7px;
     gap: 20px;
-}
-
-.card-paises:hover {
-    border: 1px solid var(--cor-azul-primaria);
 }
 
 /*IMAGEM DOS CARDRS*/
@@ -254,3 +250,11 @@
 #pais-portugual,#pais-canada,#pais-estados-unidos,#pais-alemanha,#pais-australia,#pais-holanda,#pais-irlanda,#pais-nova-zelandia {
     display: none;
 }    
+
+
+
+/*DESTAQUE*/
+.classeDestaque {
+    border: 1px solid var(--cor-azul-para-hover);
+}
+

@@ -88,6 +88,9 @@ function canadaAparecer() {
    seta7.style.color = '#565C68'
    seta8.style.color = '#565C68'
 
+
+      
+
 }
 
 
