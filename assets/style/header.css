@@ -67,4 +67,5 @@ header {
     color: var(--cor-cinza);
     font-family: var(--fonte-inter);
     font-weight: 500;
+    margin: auto;
 }

@@ -5,6 +5,7 @@
 
 /*CONTAINER DAS ABAS (ARTICLE)*/
 .container-abas {
+    padding: 10px;
    text-align: center;
     overflow-x: scroll;
     display: flex;
@@ -18,16 +19,13 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 6px;
-    
+    gap: 6px; 
 }
 
 /*DIV PLANO DE ESTUDO*/
 #abas-plano-de-estudo {
     min-width: 188px;
 }
-
 
 
 /*IMAGEMS DAS ABAS*/
@@ -37,7 +35,14 @@
 }
 
 /*PARAGRAFO DAS ABAS*/
-.abas,#abas-plano-de-estudo > p {
+.abas > p {
+    margin-bottom: 0px;
+    font-family: var(--fonte-inter);
+    color: var(--cor-dos-textos);
+}
+
+#abas-plano-de-estudo > p {
+    margin-bottom: 0px;
     font-family: var(--fonte-inter);
     color: var(--cor-dos-textos);
 }

@@ -1,6 +1,6 @@
 /*SEÇÃO 3 DOS PAISES*/
 #secao-paises {
-   
+   display: none;
 }
 
 /*CONTAINER DOS PAISES*/
@@ -36,6 +36,7 @@
 
 /*TITULO*/
 .card-text > h2{ 
+    font-size: 21px;
     width: 120%;
     color: var(--cor-dos-textos);
     font-family: var(--fonte-inter);
@@ -48,6 +49,7 @@
 .card-text > p {
     color: var(--cor-cinza);
     font-family: var(--fonte-inter);
+    font-size: 15px;
     font-weight: 600;
 }
 
@@ -111,7 +113,7 @@
 
 /*CARDS COM AS INFORMAÇÕES*/
 .card-informacao {
-    width: 170px;
+    width: 160px;
     padding: 10px;
     border-radius: 10px;
     background-color: var(--cor-dos-segundos-cards);
@@ -128,13 +130,14 @@
 
 /*IMAGEM DO ICONE*/
 .card-icone-e-texto > img {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 /*TITULO DO CARD*/
 .card-icone-e-texto > h3 {
     color: var(--cor-cinza);
+    
     font-family: var(--fonte-inter);
     font-weight: 500;
     margin-bottom: 10px;
@@ -170,7 +173,7 @@
 .nivel-de-ingles-text  {
     text-align: center;
     background-color: #ca8b045b;
-    width: 35%;
+    width: 40%;
     padding: 10px;
     border-radius: 20px;
 }
@@ -181,6 +184,7 @@
     font-family: var(--fonte-inter);
     font-weight: bold;
     color: var(--cor-amarelo);
+    margin: auto;
 }
 
 
@@ -188,6 +192,14 @@
 /*HABILIDADES*/
 .container-mae-das-habilidades {
     margin-bottom: 20px;
+}
+
+
+/*DIV COM AS OUTRAS DIVS*/
+.container-das-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 
@@ -221,6 +233,8 @@
     color: var(--cor-dos-textos);
     font-family: var(--fonte-inter);
     font-weight: bold;
+    font-size: 15px;
+    margin: auto;
 }
 
 
@@ -257,4 +271,3 @@
 .classeDestaque {
     border: 1px solid var(--cor-azul-para-hover);
 }
-
