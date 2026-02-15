@@ -29,14 +29,6 @@
 }
 
 
-/*HOVER*/
-.abas:hover {
-    background-color: var(--cor-cinza);
-}
-#abas-plano-de-estudo:hover {
-    background-color: var(--cor-cinza);
-}
-
 
 /*IMAGEMS DAS ABAS*/
 .abas > img {
