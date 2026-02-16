@@ -1,0 +1,10 @@
+/*SEÇÃO DAS HABILIDADES*/
+#secao-habilidade-demandadas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/*TITULO DA SEÇÃO DAS HABILIDADES*/
