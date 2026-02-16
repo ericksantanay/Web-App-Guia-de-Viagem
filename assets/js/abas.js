@@ -8,6 +8,10 @@ let secaoDosPaises = document.getElementById('secao-paises')
 
 let secaoCustos = document.getElementById('secao-dos-custos')
 
+let secaoHabilidades = document.getElementById('secao-habilidade-demandadas')
+
+
+secaoDosPaises.style.display = 'block'
 
 // EVENTO DE CLICK
 containerAbas.addEventListener("click", (evento) => {
@@ -30,10 +34,18 @@ containerAbas.addEventListener("click", (evento) => {
     if (aba1 === cardQueFoiClicado) {
         secaoDosPaises.style.display = 'block'
         secaoCustos.style.display = 'none'
+        secaoHabilidades.style.display = 'none'
     }
 
     if(aba2 === cardQueFoiClicado) {
         secaoCustos.style.display = 'block'
+        secaoDosPaises.style.display = 'none'
+        secaoHabilidades.style.display = 'none'
+    }
+
+    if (aba3 === cardQueFoiClicado) {
+        secaoHabilidades.style.display = 'block'
+        secaoCustos.style.display = 'none'
         secaoDosPaises.style.display = 'none'
     }
     

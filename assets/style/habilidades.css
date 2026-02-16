@@ -1,14 +1,13 @@
 /*SEÇÃO DAS HABILIDADES*/
 #secao-habilidade-demandadas {
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: none;
     margin-top: 20px;
 }
 
+
 /* */
 .div-mae-das-habilidades-container {
+    margin: auto;
     width: 95%;
     padding: 20px;
     border-radius: 10px;
@@ -42,7 +41,7 @@
     padding: 10px;
     background-color: var(--cor-dos-segundos-cards);
     border-radius: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 
@@ -100,7 +99,6 @@
 
 /*DIV COM AS IMAGEMS*/
 .icones-dos-paises {
-    flex-wrap: wrap;
     display: flex;
     align-items:center;
     gap: 5px;
