@@ -10,8 +10,11 @@ let secaoCustos = document.getElementById('secao-dos-custos')
 
 let secaoHabilidades = document.getElementById('secao-habilidade-demandadas')
 
+let corPrimeiraAba = document.getElementById('aba1')
+
 
 secaoDosPaises.style.display = 'block'
+corPrimeiraAba.style.backgroundColor = '#3B82F6'
 
 // EVENTO DE CLICK
 containerAbas.addEventListener("click", (evento) => {
@@ -35,18 +38,25 @@ containerAbas.addEventListener("click", (evento) => {
         secaoDosPaises.style.display = 'block'
         secaoCustos.style.display = 'none'
         secaoHabilidades.style.display = 'none'
+
+        corPrimeiraAba.style.backgroundColor = '#3B82F6'
     }
 
     if(aba2 === cardQueFoiClicado) {
         secaoCustos.style.display = 'block'
         secaoDosPaises.style.display = 'none'
         secaoHabilidades.style.display = 'none'
+
+        corPrimeiraAba.style.backgroundColor = '#0E1116'
     }
 
     if (aba3 === cardQueFoiClicado) {
         secaoHabilidades.style.display = 'block'
         secaoCustos.style.display = 'none'
-        secaoDosPaises.style.display = 'none'
+        secaoDosPaises.style.display = '#0E1116'
+
+
+        corPrimeiraAba.style.backgroundColor = '#0E1116'
     }
     
     // CONDIÇÃO, SE O CARD NÃO EXISTIR ELE RETORNA

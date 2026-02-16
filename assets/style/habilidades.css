@@ -110,3 +110,8 @@
     width: 20px;
     height: 20px;
 }
+
+
+.hoverHabilidade {
+    border: 1px solid var(--cor-azul-primaria);
+}
