@@ -1,10 +1,45 @@
 /*SEÇÃO DAS HABILIDADES*/
 #secao-habilidade-demandadas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
 }
 
+/*  */
+.div-mae-das-habilidades-container {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--cor-dos-cards);
+   
+}
+
+
 /*TITULO DA SEÇÃO DAS HABILIDADES*/
+.div-mae-das-habilidades-container > h3 {
+    color: var(--cor-dos-textos);
+    font-weight: 500;
+    font-family: var(--fonte-inter);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*PARAGRAFO DA HABILIDADE*/
+.div-mae-das-habilidades-container > p {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+
+/*CONTAINER DAS HABILIDADES*/
+.container-mae-dos-cards-das-habilidades {
+    padding: 10px;
+    background-color: var(--cor-dos-segundos-cards);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
