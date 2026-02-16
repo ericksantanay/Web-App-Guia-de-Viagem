@@ -7,10 +7,10 @@
     margin-top: 20px;
 }
 
-/*  */
+/* */
 .div-mae-das-habilidades-container {
-    width: 90%;
-    padding: 10px;
+    width: 95%;
+    padding: 20px;
     border-radius: 10px;
     background-color: var(--cor-dos-cards);
    
@@ -32,14 +32,83 @@
     color: var(--cor-cinza);
     font-family: var(--fonte-inter);
     font-size: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 
 /*CONTAINER DAS HABILIDADES*/
 .container-mae-dos-cards-das-habilidades {
+    display: flex;
     padding: 10px;
     background-color: var(--cor-dos-segundos-cards);
     border-radius: 10px;
     margin-bottom: 10px;
+}
+
+
+/*PARTE ESQUERDA DO CARD HABILIDADES*/
+.left-habilidade {
+    display: flex;
+    margin-right: 20px;
+}
+
+/*H4*/
+#primeiro-lugar-habilidades-texto,.lugares-habilidades-texto {
+    text-align: center;
+    font-family: var(--fonte-poppins);
+    font-weight: 600;
+    height: max-content;
+    color: var(--cor-dos-textos);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/*H4 CLASSES*/
+.lugares-habilidades-texto {
+    background-color: #565c6830;
+}
+
+/*PRIMEIRA POSIÇÃO*/
+#primeiro-lugar-habilidades-texto {
+    padding: 10px;
+    background: var(--cor-azul-primaria);
+}
+
+
+/*DIV COM O TEXTO DA HABILIDADE E A DEMANDA*/
+.profissao-e-quantidade-de-demanda {
+    display: flex;
+    flex-direction: column;
+}
+
+/*NOMES DAS HABILIDADES E AS DEMANDAS*/
+.profissao-e-quantidade-de-demanda > h5 {
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+    margin-bottom: 10px;
+}
+
+
+/*DEMANDA DAS HABILIDADES*/
+.profissao-e-quantidade-de-demanda > p {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    font-size: 14px;
+}
+
+
+/*DIV COM AS IMAGEMS*/
+.icones-dos-paises {
+    flex-wrap: wrap;
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}
+
+
+/*IMAGEMS*/
+.icones-dos-paises > img {
+    width: 20px;
+    height: 20px;
 }
