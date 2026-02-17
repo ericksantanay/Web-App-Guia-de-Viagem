@@ -27,3 +27,5 @@ containerCardPlanoDeEstudo.addEventListener("click", (eventoPlanoEstudo) => {
     
 
 })
+
+// Eu preciso percorrer e saber se esta verde se estiver verde eu removo a classe se estiver cor inical eu adiciono a classe
