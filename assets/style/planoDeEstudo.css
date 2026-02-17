@@ -1,0 +1,135 @@
+/*SEÇÃO PLANO DE ESTUDOS*/
+#secao-plano-de-estudos {
+    margin-top: 20px;
+}
+
+
+/*DIV CONTAINER GERAL COM TITULO E OS CARDS */
+.container-geral-do-plano-de-estudo {
+    margin: auto;
+    width: 95%;
+    background-color: var(--cor-dos-cards);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*PRIMEIRO ARTICLE, ESSE ESTA O TITULO E O TANTO DE TAREFAS CONCLUIDAS E A BARRA DE PROGRESSO*/
+.progresso-plano-de-estudo {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*DIV COM O TITULO E A DIV COM O TOTAL DE TAREFAS CONCLUIDAS */
+#container-titulo-plano-estudo {
+    width: 100%;
+    display: flex;
+    gap:20%;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+
+/*H3 TITULO*/
+.titulo-plano-de-estudo > h3 {
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+}
+
+
+/*DIV QUE ESTA O TOTAL DE TAREFAS CONCLUIDAS*/
+.concluidos-plano-de-estudos {
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #ca8b0475;
+}
+
+/*RESULTADO DAS TAREFAS CONCLUÍDAS*/
+#resultado-concluidos {
+    color: var(--cor-amarelo);
+    margin: auto;
+    font-size: 15px;
+}
+
+
+/*BARRA DE PROGRESSO ESTA NA SEÇÃO DOS CUSTOS*/
+
+
+/*DIV CATEGORIA E AS CORES E A FONTE ESTA NA DIV INVES DO TITULO DIRETO*/
+.categoria-plano-de-estudo {
+    width: 40%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: var(--fonte-inter);/*A FONTE EU COLOQUEI AQUI NA DIV*/
+    color: var(--cor-dos-textos); /*A CO EU COLOQUEI AQUI NA DIV*/
+    background-color: #ca8b0447;
+}
+
+
+/*CONTAINER DOS CARDS */
+.container-cards-plano-de-estudo {
+    margin-top: 20px;   
+}
+
+
+/*CARD*/
+.cards-plano-de-estudo {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--cor-dos-segundos-cards);
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+
+/*SPAN COM O ICONE DE CIRCULO*/
+#plano1 {
+    font-size: 25px;
+}
+
+
+
+/*TITULO DO CARD*/
+.right-card-plano-estudo > h3 {
+    color: var(--cor-dos-textos);
+    font-family: var(--fonte-inter);
+    margin-bottom: 10px;
+}
+
+
+/*PARAGRAFO DO CARD*/
+.text-alt-paragrafo {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+    margin-bottom: 10px;
+} 
+
+
+/*DIV COM O TEMPO E A PRIORIDADE*/
+.card-prioridade-e-tempo {
+    display: flex;
+    gap: 20px;
+}
+
+.card-tempo {
+    display: flex;
+    gap: 5px;
+}
+
+/*TEMPO DO PLANO DE ESTUDO*/
+.tempo-card-plano-de-estudo {
+    color: var(--cor-cinza);
+    font-family: var(--fonte-inter);
+}
+
+
+/*DIV COM O BACKGROUND DA PRIORIDADE*/
+.prioridade-nivel-alta {
+    
+}

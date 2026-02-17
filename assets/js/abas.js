@@ -13,8 +13,8 @@ let secaoHabilidades = document.getElementById('secao-habilidade-demandadas')
 let corPrimeiraAba = document.getElementById('aba1')
 
 
-secaoDosPaises.style.display = 'block'
-corPrimeiraAba.style.backgroundColor = '#3B82F6'
+// secaoDosPaises.style.display = 'block'
+// corPrimeiraAba.style.backgroundColor = '#3B82F6'
 
 // EVENTO DE CLICK
 containerAbas.addEventListener("click", (evento) => {
@@ -28,11 +28,7 @@ containerAbas.addEventListener("click", (evento) => {
 
     let aba3 = document.getElementById('aba3')
 
-    let aba4 = document.getElementById('aba4')
-
-    let aba5 = document.getElementById('abas-plano-de-estudo')
-
-    let aba6 = document.getElementById('aba6')
+    let aba4 = document.getElementById('abas-plano-de-estudo')
 
     if (aba1 === cardQueFoiClicado) {
         secaoDosPaises.style.display = 'block'
@@ -53,7 +49,7 @@ containerAbas.addEventListener("click", (evento) => {
     if (aba3 === cardQueFoiClicado) {
         secaoHabilidades.style.display = 'block'
         secaoCustos.style.display = 'none'
-        secaoDosPaises.style.display = '#0E1116'
+        secaoDosPaises.style.display = 'none'
 
 
         corPrimeiraAba.style.backgroundColor = '#0E1116'
