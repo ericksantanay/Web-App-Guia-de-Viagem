@@ -153,3 +153,9 @@
 .prioridade-alta,.prioridade-media {
     margin: auto;
 }
+
+
+/*CLASSES PARA O JAVA SCRIPT*/
+.classGreen {
+    background-color: #0d7a353a;
+}
