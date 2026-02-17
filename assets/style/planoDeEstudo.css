@@ -67,6 +67,7 @@
     font-family: var(--fonte-inter);/*A FONTE EU COLOQUEI AQUI NA DIV*/
     color: var(--cor-dos-textos); /*A CO EU COLOQUEI AQUI NA DIV*/
     background-color: #ca8b0447;
+    margin-top: 20px;
 }
 
 
@@ -120,6 +121,7 @@
 .card-tempo {
     display: flex;
     gap: 5px;
+    margin-top: 8px;
 }
 
 /*TEMPO DO PLANO DE ESTUDO*/
@@ -131,5 +133,23 @@
 
 /*DIV COM O BACKGROUND DA PRIORIDADE*/
 .prioridade-nivel-alta {
-    
+    font-family: var(--fonte-inter);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--cor-vermelho);
+    background-color: #b91c1c3d;
+}
+
+/*  */
+.prioridade-nivel-media {
+    font-family: var(--fonte-inter);
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--cor-amarelo);
+    background-color: #ca8b0447;
+}
+
+/*PRIORIDADE PARAGRAFO*/
+.prioridade-alta,.prioridade-media {
+    margin: auto;
 }
