@@ -10,11 +10,14 @@ let secaoCustos = document.getElementById('secao-dos-custos')
 
 let secaoHabilidades = document.getElementById('secao-habilidade-demandadas')
 
+let secaoPlanodeEstudo = document.getElementById('secao-plano-de-estudos')
+
+
 let corPrimeiraAba = document.getElementById('aba1')
 
 
-// secaoDosPaises.style.display = 'block'
-// corPrimeiraAba.style.backgroundColor = '#3B82F6'
+secaoDosPaises.style.display = 'block'
+corPrimeiraAba.style.backgroundColor = '#3B82F6'
 
 // EVENTO DE CLICK
 containerAbas.addEventListener("click", (evento) => {
@@ -29,11 +32,13 @@ containerAbas.addEventListener("click", (evento) => {
     let aba3 = document.getElementById('aba3')
 
     let aba4 = document.getElementById('abas-plano-de-estudo')
+    
 
     if (aba1 === cardQueFoiClicado) {
         secaoDosPaises.style.display = 'block'
         secaoCustos.style.display = 'none'
         secaoHabilidades.style.display = 'none'
+        secaoPlanodeEstudo.style.display = 'none'
 
         corPrimeiraAba.style.backgroundColor = '#3B82F6'
     }
@@ -42,6 +47,7 @@ containerAbas.addEventListener("click", (evento) => {
         secaoCustos.style.display = 'block'
         secaoDosPaises.style.display = 'none'
         secaoHabilidades.style.display = 'none'
+        secaoPlanodeEstudo.style.display = 'none'
 
         corPrimeiraAba.style.backgroundColor = '#0E1116'
     }
@@ -49,6 +55,18 @@ containerAbas.addEventListener("click", (evento) => {
     if (aba3 === cardQueFoiClicado) {
         secaoHabilidades.style.display = 'block'
         secaoCustos.style.display = 'none'
+        secaoDosPaises.style.display = 'none'
+        secaoPlanodeEstudo.style.display = 'none'
+
+
+        corPrimeiraAba.style.backgroundColor = '#0E1116'
+    }
+
+
+    if (aba4 === cardQueFoiClicado) {
+        secaoPlanodeEstudo.style.display = 'block'
+        secaoCustos.style.display = 'none'
+        secaoHabilidades.style.display = 'none'
         secaoDosPaises.style.display = 'none'
 
 
