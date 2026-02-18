@@ -1,0 +1,21 @@
+{
+  "name": "Saída Do Brasil",
+  "short_name": "Brasil",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d6efd",
+  "description": "Aplicativo de guia para viagem fora do Brasil",
+  "icons": [
+    {
+      "src": "assets/image/SAÍDA DO BRASIL Logo192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/image/SAÍDA DO BRASIL Logo512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
