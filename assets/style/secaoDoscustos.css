@@ -85,7 +85,7 @@ progress {
 
 /* Cor do fundo (container) */
 progress::-webkit-progress-bar {
-  background-color: #b5b5b5;
+  background-color: #ffffff;
   border-radius: 10px;
 }
 

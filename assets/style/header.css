@@ -27,7 +27,7 @@ header {
 /*IMAGEM DO AVIÃO*/
 .parte-esquerda-header  > img {
     width: 60px;
-    height: auto;
+    height: 60px;
     background-color: var(--cor-azul-primaria);
     padding: 15px;
     border-radius: 10px;
