@@ -4,7 +4,6 @@
     margin-top: 30px;
 }
 
-
 /* CONTAINER MAE DAS DIVS*/     /*ESSA CLASSE É DOS CARDS SE É ACESSIVEL OU NÃO*/
 .container-mae-dos-custos,.container-mae-dos-cards-acessivel {
     width: 90%;
@@ -13,7 +12,6 @@
     background-color: var(--cor-dos-cards);
     border-radius: 10px;
 }
-
 
 /*DIV COM O TITULO*/
 .comparativo-text-esplicativo > h2 {
@@ -25,7 +23,6 @@
     margin-bottom: 15px;
 }
 
-
 /*DIV COM O PARAGRAFO TEXTO */
 .comparativo-text-esplicativo > p {
     color: var(--cor-cinza);
@@ -33,12 +30,10 @@
     margin-bottom: 20px;
 }
 
-
 /*DIVS COM O NOME DO PAIS VALOR DO CUSTO E O E A BARRA GRESSO*/
 .comparativo-barra-progresso {
     width: 100%;
     margin-bottom: 30px;
-    
 }
 
 
@@ -48,13 +43,11 @@
     gap: 30%;
 }
 
-
 /*NOME DO PAIS E O VALOR DO CUSTO */ 
 .nome-do-pais-e-valor-do-euro > h3,p {
     font-family: var(--fonte-inter);
     margin-bottom: 10px;
 }
-
 
 /*NOME DO PAIS */ 
 .nome-do-pais-e-valor-do-euro > h3 {
@@ -63,7 +56,6 @@
 
 }
 
-
 /*PREÇO DO PAIS */ 
 .nome-do-pais-e-valor-do-euro > p {
     position: absolute;
@@ -71,7 +63,6 @@
     font-weight: 600;
     color: var(--cor-azul-primaria);
 }
-
 
 /*BARRA DE PROGRESSO*/
 /* Remove a aparência padrão */
@@ -82,13 +73,11 @@ progress {
   height: 10px;
 }
 
-
 /* Cor do fundo (container) */
 progress::-webkit-progress-bar {
   background-color: #ffffff;
   border-radius: 10px;
 }
-
 
 /* Cor do preenchimento (progresso) */
 progress::-webkit-progress-value {
@@ -96,7 +85,6 @@ progress::-webkit-progress-value {
   border-radius: 10px;
   transition: width 0.3s ease; 
 }
-
 
 /* Para Firefox */
 progress::-moz-progress-bar {
@@ -109,7 +97,6 @@ progress::-moz-progress-bar {
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 
 /*IMAGEM DO SPAN*/
 .container-mae-dos-cards-acessivel > span {
