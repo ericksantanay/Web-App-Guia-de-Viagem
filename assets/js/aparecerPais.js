@@ -51,8 +51,6 @@ let seta7  = document.getElementById('seta7')
 let seta8  = document.getElementById('seta8')
 
 
-
-
 //FUNÇÕES PARA APARECER O PAIS DESEJADO
 // CANADA APARECE
 function canadaAparecer() {
@@ -88,9 +86,6 @@ function canadaAparecer() {
    seta7.style.color = '#565C68'
    seta8.style.color = '#565C68'
 
-
-      
-
 }
 
 
@@ -106,7 +101,7 @@ function estadosUnidosAparecer() {
     holanda.style.display = 'none'
     irlanda.style.display = 'none'
 
-     seta3.innerText = 'keyboard_arrow_down'
+   seta3.innerText = 'keyboard_arrow_down'
 
    seta2.innerText = 'arrow_forward_ios'
    seta1.innerText = 'arrow_forward_ios'
